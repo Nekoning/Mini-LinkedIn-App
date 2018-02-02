@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/spacing_medium"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/skill_edit_languages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/skill_edit_languages_hint"/>
+
+    <EditText
+        android:id="@+id/skill_edit_techniques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/skill_edit_techniques_hint"/>
+
+    <EditText
+        android:id="@+id/skill_edit_databases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/skill_edit_databases_hint"/>
+
+    <EditText
+        android:id="@+id/skill_edit_big_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/skill_edit_big_data_hint"/>
+
+    <EditText
+        android:id="@+id/skill_edit_tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/skill_edit_tools_hint"/>
+
+    <TextView
+        android:id="@+id/education_edit_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:layout_gravity="right"
+        android:text="@string/action_update"
+        style="@style/AppTheme.TextView.UpdateButton"/>
+
+</LinearLayout>

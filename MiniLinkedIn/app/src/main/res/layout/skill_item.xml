@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/skill_languages"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Languages: Java (3+ years experience), JavaScript, SQL"/>
+
+        <ImageButton
+            android:id="@+id/edit_skill_language_btn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_mode_edit_black_18dp"
+            android:alpha="0.7"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/edit_skill"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/skill_techniques"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Techniques: Spring, Hibernate, AngularJS"/>
+
+        <ImageButton
+            android:id="@+id/edit_skill_technique_btn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_mode_edit_black_18dp"
+            android:alpha="0.7"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/edit_skill"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/skill_databases"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Databases: MS SQL Server, MySQL"/>
+
+        <ImageButton
+            android:id="@+id/edit_skill_database_btn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_mode_edit_black_18dp"
+            android:alpha="0.7"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/edit_skill"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/skill_big_data"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Big Data Ecosystems: HDFS, Hadoop, MapReduce, HBase"/>
+
+        <ImageButton
+            android:id="@+id/edit_skill_big_data_btn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_mode_edit_black_18dp"
+            android:alpha="0.7"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/edit_skill"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/skill_tools"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Tools: Eclipse, Tableau, Android Studio, Git"/>
+
+        <ImageButton
+            android:id="@+id/edit_skill_tool_btn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_mode_edit_black_18dp"
+            android:alpha="0.7"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/edit_skill"/>
+
+    </LinearLayout>
+</LinearLayout>
